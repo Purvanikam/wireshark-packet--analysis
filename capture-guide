@@ -1,0 +1,20 @@
+# Capture Guide: Wireshark
+
+## Step 1: Launch Wireshark
+Open Wireshark and select your active network interface. In this capture, the Wi-Fi adapter was used.
+
+## Step 2: Start Capture
+Click the blue shark fin icon to begin capturing packets.
+
+## Step 3: Generate Traffic
+During capture, the following activities were performed:
+- Browsed to `https://www.wikipedia.org`
+- Performed a ping to `8.8.8.8` (Google DNS)
+
+## Step 4: Stop Capture
+Click the red square stop button after ~1 minute.
+
+## Step 5: Save Capture
+Go to **File → Save As** and save as `capture_session.pcap` in the project directory.
+
+The saved capture file contains real network packets that will be analyzed in the report.
